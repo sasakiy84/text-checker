@@ -7,7 +7,7 @@
 ## リアルタイムで確認可能な表記チェック
 ![例](document/assets/example1.png)
 
-## 正規表現で記述可能なルールセット
+## 正規表現で記述可能な表記ルール
 ![例](document/assets/example2.png)
 
 警告メッセージや警告レベルも設定可能
