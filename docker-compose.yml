@@ -1,0 +1,17 @@
+version: '3.9'
+
+services:
+  mongo:
+    container_name: text-checker-mongo
+    build: 
+      dockerfile: docker/mongo/Dockerfile
+      context: .
+    ports:
+      - 27017:27017
+    volumes:
+      - type: volume
+        source: text-checker-db-volume
+        target: /var/lib/mongodb
+
+volumes:
+  text-checker-db-volume:
